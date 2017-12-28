@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type"   content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Скрипт для вывода круговой диаграммы</title>
+	<link rel="stylesheet" href="css/main.css?v=2">
+	<script type="text/javascript" src="js/sector.js"></script>
+</head>
+<body>
+	<h1>Скрипт для вывода круговой диаграммы</h1>
+	<section>
+		<svg class="diagram-pie" viewBox="0 0 250 250"
+		xmlns="http://www.w3.org/2000/svg" version="1.1">
+			<defs>
+				<filter id="pathFilter" class="shadow-path">
+					<feGaussianBlur stdDeviation="2"/>
+				</filter>
+			</defs>
+		</svg>
+	</section>
+	<section>
+		<svg class="diagram-pie-outline" viewBox="0 0 250 250">
+			<defs>
+				<filter id="pathFilter-1" class="shadow-path-1">
+					<feGaussianBlur stdDeviation="0"/>
+				</filter>
+			</defs>
+		</svg>
+	</section>	
+</body>
+</html>

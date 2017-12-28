@@ -1,0 +1,38 @@
+@import "smart-grid.less";
+
+html, body{
+	margin: 20px 0 0 0;
+	background: #fff;
+	color: #000;
+}
+/* pie-path-diagram */
+.diagram-pie, .diagram-pie-outline{
+	border: 1px solid #000;
+	box-sizing: border-box;
+	position: relative;
+	left: 100px;
+	top: 0px;
+	width: 320px;
+	height: 250px;
+}
+
+path{
+	cursor: pointer;
+}
+/*--------------------------------------*/
+/* блок анимации                        */
+.active-sector{
+	transition: all 0.5s ease 0s;
+}
+
+.animated{
+	position: relative;
+	-webkit-animation: moving-line 1s ease 1 forwards;
+	animation: moving-line 2s ease 1 forwards;
+}
+
+@keyframes moving-line{
+	to{
+		stroke-dashoffset: 0;
+	}
+}

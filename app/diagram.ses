@@ -1,0 +1,15 @@
+<NotepadPlus>
+    <Session activeView="0">
+        <mainView activeIndex="0">
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="584" startPos="0" endPos="0" selMode="0" lang="HTML" encoding="-1" filename="D:\projects\diagram\app\index.html" backupFilePath="" originalFileLastModifTimestamp="1503147163" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="432" startPos="0" endPos="0" selMode="0" lang="&#x041E;&#x0431;&#x044B;&#x0447;&#x043D;&#x044B;&#x0439; &#x0422;&#x0435;&#x043A;&#x0441;&#x0442;" encoding="-1" filename="D:\projects\diagram\app\less\main.less" backupFilePath="" originalFileLastModifTimestamp="1503148012" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="1" startPos="0" endPos="0" selMode="0" lang="Javascript" encoding="-1" filename="D:\projects\diagram\app\js\controller.js" backupFilePath="" originalFileLastModifTimestamp="1503149373" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="1" startPos="0" endPos="0" selMode="0" lang="Javascript" encoding="-1" filename="D:\projects\diagram\app\js\controller_fill.js" backupFilePath="" originalFileLastModifTimestamp="1503141106" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="1" startPos="0" endPos="0" selMode="0" lang="Javascript" encoding="-1" filename="D:\projects\diagram\app\js\helper.js" backupFilePath="" originalFileLastModifTimestamp="1502897041" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="1" startPos="0" endPos="0" selMode="0" lang="Javascript" encoding="-1" filename="D:\projects\diagram\app\js\index.js" backupFilePath="" originalFileLastModifTimestamp="1503140656" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="1" startPos="0" endPos="0" selMode="0" lang="Javascript" encoding="-1" filename="D:\projects\diagram\app\js\sector.js" backupFilePath="" originalFileLastModifTimestamp="1503147236" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="1504" startPos="0" endPos="0" selMode="0" lang="Javascript" encoding="-1" filename="D:\projects\diagram\app\js\view.js" backupFilePath="" originalFileLastModifTimestamp="1503141407" />
+        </mainView>
+        <subView activeIndex="0" />
+    </Session>
+</NotepadPlus>

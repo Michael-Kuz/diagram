@@ -1,0 +1,54 @@
+html,
+body {
+  margin: 20px 0 0 0;
+  background: #fff;
+  color: #000;
+}
+/* pie-path-diagram */
+.diagram-pie,
+.diagram-pie-outline {
+  border: 1px solid #000;
+  box-sizing: border-box;
+  position: relative;
+  left: 100px;
+  top: 0px;
+  width: 320px;
+  height: 250px;
+}
+.shadow-path {
+  opacity: 0.5;
+  transform: translate(3px, 3px);
+}
+.shadow-path-1 {
+  display: none;
+  opacity: 1;
+}
+.move {
+  transform: translate(3px, 3px);
+}
+.pointer {
+  cursor: pointer;
+  opacity: 1.0;
+  transition: all 0.5s ease 0s;
+}
+.pointer:hover {
+  opacity: 0.5;
+}
+.trans-type-1 {
+  transition: all 0.5s ease 0s;
+}
+.animated {
+  position: relative;
+  -webkit-animation: moving-line 1s ease 1 forwards;
+  animation: moving-line 2s ease 1 forwards;
+}
+@keyframes moving-line {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@-webkit-keyframes moving-line {
+  to {
+    -webkit-stroke-dashoffset: 0;
+  }
+}
